@@ -1,0 +1,102 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  border: 1px solid rgb(255, 196, 0);
+  background: rgba(193, 23, 125, 0.557);
+  color: rgb(255, 196, 0);
+}
+
+.main {
+  min-width: 100%;
+  min-height: 100vh;
+  display: block;
+  margin: 0;
+  padding: 0;
+  background: rgba(193, 23, 125, 0.557);
+  overflow: hidden;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+  margin: auto;
+  margin-bottom: 40px;
+  background: rgba(81, 21, 203, 0.468);
+  text-align: center;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.title {
+  font-size: 45px;
+  color: rgb(255, 196, 0);
+}
+
+.input {
+  width: 90%;
+  margin: 0 auto;
+  padding: 5px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background: rgba(193, 23, 125, 0.557);
+  color: rgb(255, 196, 0);
+  font-size: 20px;
+}
+
+.add_button {
+  width: 50%;
+  margin: 5px auto;
+  padding: 5px;
+  font-size: 15px;
+}
+
+.list {
+  list-style: none;
+  padding: 0 0.5rem;
+  margin: 0;
+}
+
+.item {
+  display: flex;
+  width: 100%;
+  height: 43px;
+  margin: 5px 0;
+  position: relative;
+  background: rgba(193, 23, 125, 0.557);
+}
+
+.container {
+  height: 43px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.container--hiden {
+  z-index: -1;
+  opacity: 0;
+}
+
+.text {
+  margin: 5px;
+  padding: 5px;
+  font-size: 20px;
+  color: rgb(255, 196, 0);
+  text-align: start;
+  max-width: 80%;
+}
+
+.checked {
+  text-decoration: line-through;
+  text-decoration-color: rgb(233, 10, 88);
+  color: rgba(255, 196, 0, 0.495);
+}
